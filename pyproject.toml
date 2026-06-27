@@ -92,6 +92,9 @@ testpaths = [
 [tool.setuptools.dynamic]
 version = {attr = "rollbar.__version__"}
 
+[tool.setuptools.package-data]
+rollbar = ["py.typed"]
+
 [tool.tox]
 requires = ["tox>=4.22"]
 
