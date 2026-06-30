@@ -81,9 +81,7 @@ For bug reports, please [open an issue on GitHub](https://github.com/rollbar/pyr
 4. Push to the branch (```git push origin my-new-feature```)
 5. Create new Pull Request
 
-Tests are in `rollbar/test`. To run the tests, install the test dependencies and run pytest:
+Tests are in `rollbar/test`. To run them:
 
-    pip install -e '.[test]'   # or: uv sync --group test
+    pip install -e . --group test
     pytest
-
-To run against all supported Python versions, use `tox`.
