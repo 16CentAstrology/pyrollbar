@@ -37,7 +37,7 @@ if TYPE_CHECKING:
     from rollbar.lib.payload import Attribute
     from rollbar.lib.type_info import KeyType
 
-__version__ = '1.4.0-beta'
+__version__ = '1.4.0'
 __log_name__ = 'rollbar'
 
 from rollbar.lib.transform import Transform
