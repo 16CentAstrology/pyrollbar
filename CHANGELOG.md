@@ -2,6 +2,18 @@
 
 The change log is also available on the [GitHub Releases Page](https://github.com/rollbar/pyrollbar/releases).
 
+**1.4.0**
+
+- Added support for Python 3.14 by @danielmorell in [#484](https://github.com/rollbar/pyrollbar/pull/484)
+- Added support for error correlation headers. by @danielmorell in [#491](https://github.com/rollbar/pyrollbar/pull/491)
+- Added forwarding of Python logging `extra`s to Rollbar by @terencehonles in [#488](https://github.com/rollbar/pyrollbar/pull/488)
+- Added ability to disabling payload logging on non-200 status by @PoCTo in [#487](https://github.com/rollbar/pyrollbar/pull/487)
+- Added initial typehints by @danielmorell in [#494](https://github.com/rollbar/pyrollbar/pull/494)
+- Updated Python log handler formatting by @terencehonles in [#488](https://github.com/rollbar/pyrollbar/pull/488)
+- Maintenance fixed broken test command in contributing section. by @Montana in [#496](https://github.com/rollbar/pyrollbar/pull/496)
+- Maintenance fixed GitHub workflow badge was unclickable by @Olexandr88 in [#483](https://github.com/rollbar/pyrollbar/pull/483)
+- Maintenance improved local and CI test setup by @terencehonles in [#489](https://github.com/rollbar/pyrollbar/pull/489)
+
 **1.4.0-beta**
 
 - Added support for Python 3.14 by @danielmorell in [#484](https://github.com/rollbar/pyrollbar/pull/484)
